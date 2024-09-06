@@ -6,41 +6,41 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Como você prefere contribuir para a preservação do meio ambiente em seu dia a dia?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                texto: "a) Reduzindo o consumo de plásticos descartáveis e optando por produtos reutilizáveis",
+                afirmacao: "Reduzir o uso de plásticos descartáveis e adotar produtos reutilizáveis é uma forma eficaz de diminuir a poluição e os resíduos sólidos. Ao fazer isso, você contribui para a redução da demanda por novos plásticos, ajudando a proteger o meio ambiente e a vida marinha."
             },
             {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "b) Participando de programas de reciclagem e compostagem em sua comunidade",
+                afirmacao: " A reciclagem e a compostagem ajudam a reduzir a quantidade de resíduos que vão para aterros e a reciclar materiais que podem ser reutilizados, economizando recursos e reduzindo a poluição. Participar desses programas também incentiva uma cultura de responsabilidade ambiental e promove a conscientização na comunidade."
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Qual é a sua prioridade quando se trata de ações individuais para combater as mudanças climáticas?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                texto: "a) Reduzir o consumo de carne e adotar uma dieta mais sustentável",
+                afirmacao: " A produção de carne tem um impacto significativo nas emissões de gases de efeito estufa, desmatamento e uso excessivo de água. Reduzir o consumo de carne e adotar uma dieta mais sustentável pode diminuir a pegada de carbono e promover práticas agrícolas mais ecológicas."
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                texto: "b) Optar por transportes mais ecológicos, como bicicletas ou transporte público",
+                afirmacao: "O transporte é uma das principais fontes de emissões de gases de efeito estufa. Optar por bicicletas ou transporte público reduz a dependência de veículos particulares movidos a combustíveis fósseis, diminuindo a poluição do ar e as emissões de carbono."
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Qual prática você considera mais importante para proteger a biodiversidade local?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "a) Apoiar e participar de projetos de replantio e conservação de áreas verdes",
+                afirmacao: "Replantar árvores e conservar áreas verdes ajuda a restaurar habitats naturais, apoiar a biodiversidade e combater a erosão do solo. Essas práticas criam ambientes saudáveis para as espécies locais e ajudam a manter o equilíbrio ecológico."
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                texto: "b) Evitar o uso de pesticidas e produtos químicos no seu jardim ou cultivo",
+                afirmacao: "O uso de pesticidas e produtos químicos pode prejudicar a saúde do solo, a água e a fauna local, incluindo polinizadores essenciais como abelhas. Evitar esses produtos e optar por métodos naturais ajuda a proteger a biodiversidade e promove ecossistemas mais saudáveis e sustentáveis."
             }
         ]
     },
